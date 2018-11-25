@@ -1,12 +1,17 @@
 *{
-	font-family: "Courier New";
-	font-weight: bold;
+
+}
+html {
+  scroll-behavior: smooth;
 }
 p, h2, ul, li{
-	background-color:rgba(0, 0, 0, 0.8);
+	padding-left: 20px;
+	padding-right: 20px;
 	color: white;
+
 }
 h2{
+	margin-top: 50px;
 	width: fit-content
 }
 a{
@@ -16,14 +21,18 @@ body{
     background-image: url("images/back2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 95%;
+    font-family: "Verdana";
+	font-size: 1.05em;
+	line-height: 1.4;
 }
 
-body{
-	width: 90%;
-}
 div {
+	background-color:rgba(0, 0, 0, 0.8);
+	//box-shadow: 5px 10px #888888;
     margin: auto;
     width: 90%;
+    padding: 5px;
 }
 #top{
 	margin: auto;
@@ -36,6 +45,15 @@ div {
     background-size: cover;
     background-repeat: no-repeat;
     
+}
+#links{
+	margin: auto;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 h1{
 	background: white;
