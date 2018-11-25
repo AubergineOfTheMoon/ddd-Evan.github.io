@@ -1,0 +1,43 @@
+*{
+	font-family: "Courier New";
+	font-weight: bold;
+}
+p, h2, ul, li{
+	background-color:rgba(0, 0, 0, 0.8);
+	color: white;
+}
+h2{
+	width: fit-content
+}
+a{
+	color: red;
+}
+body{
+    background-image: url("images/back2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+	width: 90%;
+}
+div {
+    margin: auto;
+    width: 90%;
+}
+#top{
+	margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    background-image: url("images/me.jpg");
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+h1{
+	background: white;
+    width: fit-content;
+}
